@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Comfortaa:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    color: #fff;
+}
+
+.main-image {
+    background-image: url("Forest.jpg");
+    background-position: center bottom;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /*vh : Esta unidad esta basada en el alto de vista de la ventana, El valor de 1vh es equivalente al 1% del del alto del área de visualización. */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*rem : Esta propiedad depende el font-size del elemento raíz */
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.main-image h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    text-shadow: #2e2e2f 3px 3px 2px;
+}
+
+.main-image p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    text-shadow: #2e2e2f 3px 3px 2px;
+}
+
+.main-image .btn {
+    background: none;
+    border:  2px solid #fff;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: #2e2e2f 3px 3px 2px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #ffffff38;
+    transition-duration: 0.3s;
+    box-shadow: #ffffff 1px 1px 5px;
+}
+
+.main-image h1 .strike {
+    text-decoration: line-through;
+}
