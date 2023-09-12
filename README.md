@@ -1,3 +1,3 @@
 # Forest
 
-[Click here](https://forest-two.vercel.app/)
+[🦋](https://forest-two.vercel.app/)
